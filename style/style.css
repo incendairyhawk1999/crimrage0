@@ -7,19 +7,23 @@ html
 
 body
 { font-family: sans-serif;
-  background: #DAE0E2;
-  color: #FFF222;}
+  background-image: url("../img/af2.gif");
+  background-repeat:  repeat;
+  background-size: 100%;  
+  color:  #f44336;}
 
 p
 { padding: 0 0 20px 0;
-  line-height: 1.7em;}
+  line-height: 1.7em;
+ font-family: monospace;
+font-size: 13px;}
 
 img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
-  color: #218F76;
+  color:  #f0f3f4 ;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
@@ -38,7 +42,7 @@ h5, h6
 a, a:hover
 { outline: none;
   text-decoration: bold;
-  color: #218F76;}
+  color: #283747;}
 
 a:hover
 { text-decoration: none;}
@@ -109,11 +113,11 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #FFF222;}
+{ color: #FF3031;}
 
 
 #logo_text h1 a .logo_colour2
-{ color: #218F76;}
+{ color: #E71C23;}
 
 #logo_text h2
 { font-size: 100%;
@@ -143,21 +147,21 @@ ul#menu li a
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
   text-align: center;
-  color: #FFF;
+  color: #2e4053 ;
   text-transform: uppercase;
   text-decoration: none;
   background: transparent;} 
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #7CEC9F;
-  background: #fff;}
+  }
 
 #site_content
 { width: 854px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
-  background: #000;} 
+  background: #000000;} 
 
 .sidebar
 { float: right;
